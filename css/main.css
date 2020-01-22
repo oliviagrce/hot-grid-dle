@@ -12,8 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Roboto Slab", serif;
-  line-height: 1.3;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -25,11 +24,12 @@ body {
 }
 
 img {
-  width: 100%;
+  margin: 0;
 }
 
 .img-flex {
-  margin: 0;
+  display: block;
+  width: 100%;
 }
 
 figure {
@@ -37,13 +37,11 @@ figure {
 }
 
 .fig-1 {
-  display: flex;
   position: relative;
   margin: 0;
 }
 
 .figcap-1 {
-  display: flex;
   position: absolute;
   bottom: .5rem;
   left: .5rem;
@@ -55,13 +53,11 @@ figure {
 }
 
 .fig-2 {
-  display: flex;
   position: relative;
   margin: 0;
 }
 
 .figcap-2 {
-  display: flex;
   position: absolute;
   bottom: .5rem;
   left: .5rem;
@@ -73,13 +69,11 @@ figure {
 }
 
 .fig-3 {
-  display: flex;
   position: relative;
   margin: 0;
 }
 
 .figcap-3 {
-  display: flex;
   position: absolute;
   bottom: .5rem;
   left: .5rem;
