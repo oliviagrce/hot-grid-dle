@@ -20,16 +20,72 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   width: 100%;
 }
 
-.img-flex-1 {
-  position: relative;
+.img-flex {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
 }
 
 .fig-1 {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+
+.figcap-1 {
+  display: flex;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: .5rem;
+  left: .5rem;
+  max-width: 15em;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+
+.fig-2 {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+
+.figcap-2 {
+  display: flex;
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  max-width: 15em;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+
+.fig-3 {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+
+.figcap-3 {
+  display: flex;
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  max-width: 15em;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 4px;
 }
